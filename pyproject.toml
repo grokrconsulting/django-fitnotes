@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-fitnotes"
+version = "0.1.0"
+description = "A Django REST API for the Fitnotes Android App"
+authors = ["Ciaran McCormick <ciaran@grokrconsulting.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+django = "^3.0"
+djangorestframework = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
