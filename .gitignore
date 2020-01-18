@@ -114,4 +114,7 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# Django Fitnotes Settings
+django_fitnotes/django_fitnotes/setting**
+
 # End of https://www.gitignore.io/api/code,python
