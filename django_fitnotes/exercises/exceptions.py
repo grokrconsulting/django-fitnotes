@@ -1,0 +1,2 @@
+class FileImportError(Exception):
+    pass
