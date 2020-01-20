@@ -8,6 +8,7 @@ authors = ["Ciaran McCormick <ciaran@grokrconsulting.com>"]
 python = "^3.8"
 django = "^3.0"
 djangorestframework = "^3.11"
+django-filter = "^2.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
